@@ -4,6 +4,7 @@ html{
     text-align: center;
     background-color: black;
     color: white;
+    box-sizing: border-box;
 }
 
 h1{
@@ -13,4 +14,26 @@ h1{
 #link{
     color: aquamarine;
     font-size: 16px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p{
+    font-size: 21px;
+    color: gray;
+}
+
+#video{
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: right;
+    color: gray;
 }
